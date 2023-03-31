@@ -1,5 +1,6 @@
 It is a medical application where patient can do online consultation with Doctor
 This application is fetching data from database through API's which are made in Controller of Laravel Web Applcation.
+For Video Consultation OpenTok is used.
 
 ![26 2 Doctor change password](https://user-images.githubusercontent.com/65400938/229243024-08cc84fe-7a86-47ae-b5a3-6e37cfd26f8b.png)
 ![26 3 Doctor change password](https://user-images.githubusercontent.com/65400938/229243030-bed4a130-d252-47c2-a327-aa66f88b4059.png)
