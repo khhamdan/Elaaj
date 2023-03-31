@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ElaajMedicalApp</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forget_password_detail">Provide your account\'s email for which you want to reset your password!</string>
+
+</resources>

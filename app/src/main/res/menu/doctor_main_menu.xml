@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myProfile"
+            android:title="Profile"
+            android:icon="@drawable/myprofiles"
+            />
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+        <item
+            android:id="@+id/nav_payment_history"
+            android:title="Payment History"
+            android:icon="@drawable/payment_history_icon"
+            />
+        <item
+            android:id="@+id/nav_my_prescriptions"
+            android:title="My Prescription"
+            android:icon="@drawable/my_prescription"
+            />
+        <item
+            android:id="@+id/nav_previousAppointments"
+            android:title="Previous Appointments"
+            android:icon="@drawable/myappointments"
+            />
+        <item
+            android:id="@+id/nav_my_rating"
+            android:title="My Ratings"
+            android:icon="@drawable/rating_circle"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Logout">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+            </menu>
+        </item>
+    </group>
+</menu>

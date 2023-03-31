@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".PatientGiveReviewsToDoctor">
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="serif"
+        android:text="Rate your Experience with Doctor"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:progressTint="@color/gold"
+        android:numStars="5"
+        android:stepSize="0.5"
+        >
+
+    </RatingBar>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Comments"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    android:textColor="@color/black">
+
+</TextView>
+    <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+        android:inputType="textNoSuggestions"
+            />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rate_Btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_button_corners"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Rate now"
+        android:textColor="@color/white"
+        android:textSize="12dp"></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PatientFindDoctor">
+
+   <include
+       android:id="@+id/FindDoctorToolbar"
+       layout="@layout/toolbar"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <androidx.appcompat.widget.SearchView
+       android:id="@+id/searchView"
+       android:layout_width="325dp"
+       android:layout_height="48dp"
+       android:layout_margin="8dp"
+       android:layout_marginTop="28dp"
+       android:background="@drawable/search_view_bg"
+       app:iconifiedByDefault="false"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.476"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/FindDoctorToolbar"
+       app:queryHint="Search Doctor's Speciality"
+      android:backgroundTint="@color/skyBlue"
+       />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:text="Search by Speciality "
+       android:textColor="@color/black"
+       android:textSize="16sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.154"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/findDoctorRecyclerview"
+       android:layout_width="409dp"
+       android:layout_height="575dp"
+       android:layout_margin="2dp"
+       android:layout_marginTop="32dp"
+       android:background="@color/white"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView2"></androidx.recyclerview.widget.RecyclerView>
+</androidx.constraintlayout.widget.ConstraintLayout>

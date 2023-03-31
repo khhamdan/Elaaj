@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="353dp"
+    android:layout_height="144dp"
+    android:background="#F5F8FA"
+    android:orientation="horizontal">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePicText"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/img"
+        android:src="@drawable/oval"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="14dp"></TextView>
+
+        <TextView
+            android:id="@+id/appointmentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="date"
+            android:textColor="@color/grey"
+            android:textSize="12dp"></TextView>
+
+        <TextView
+            android:id="@+id/appointmentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="time"
+            android:textColor="@color/grey"
+            android:textSize="12dp"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/prescriptionImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="View Prescription"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button_corners"
+                android:textSize="12dp"></androidx.appcompat.widget.AppCompatButton>
+
+            <ImageView
+                android:id="@+id/voice_note"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="19dp"
+                android:src="@drawable/play_circle"
+                ></ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

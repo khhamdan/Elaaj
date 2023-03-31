@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".DoctorReceivePatientFiles"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/patientProfilePic"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/oval"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/patientName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="Patient Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/skyBlue"
+                    android:textSize="14dp"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor Name"
+                    android:textColor="@color/skyBlue"
+                    android:textStyle="bold"
+                    android:textSize="14dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/doctorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Name "
+                    android:textColor="@color/black"
+                    android:textSize="14dp">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fee"
+                    android:textColor="@color/skyBlue"
+                    android:textStyle="bold"
+                    android:textSize="14dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/doctorFees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.500"
+                    android:textColor="@color/black"
+                    android:textSize="14dp">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textColor="@color/skyBlue"
+                    android:textStyle="bold"
+                    android:textSize="14dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/appointmentDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friday,27 Dec"
+                    android:textColor="@color/black"
+                    android:textSize="14dp">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:textColor="@color/skyBlue"
+                    android:textStyle="bold"
+                    android:textSize="14dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/appointmentTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="07:00pm"
+                    android:textColor="@color/black"
+                    android:textSize="14dp">
+                </TextView>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/videoCall"
+                android:layout_width="200dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="144dp"
+                android:background="@drawable/round_button_corners"
+                android:text="Video Call"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                ></androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

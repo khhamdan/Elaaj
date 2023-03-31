@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="200dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/payWithStripe"
+        android:layout_width="335dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/round_button_corners"
+        android:text="Pay with stripe"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginLeft="40dp"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

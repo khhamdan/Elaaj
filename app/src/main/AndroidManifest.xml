@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hamdan.elaajmedicalapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ElaajMedicalApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaymentOfPhysicalAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".PatientSymptomsPhysicalAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".BookPhysicalAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPrescriptionPhysicalAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPhysicalAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorOnlineAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPhysicalAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorChangePassword"
+            android:exported="false"
+            android:parentActivityName=".DoctorProfile" />
+        <activity
+            android:name=".DoctorViewRating"
+            android:exported="false"
+            android:parentActivityName=".DoctorHomePage" />
+        <activity
+            android:name=".PatientViewDoctorReviews"
+            android:exported="false"
+            android:parentActivityName=".SpecializedDoctorList" />
+        <activity
+            android:name=".PatientGiveReviewsToDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".PatientReceivePrescriptionInAppointments"
+            android:exported="false"
+            android:parentActivityName=".PatientAppointmentDetails" />
+        <activity
+            android:name=".DoctorEditProfile"
+            android:exported="false"
+            android:parentActivityName=".DoctorProfile" />
+        <activity
+            android:name=".PatientReceiveDoctorVoiceNote"
+            android:exported="false"
+            android:parentActivityName=".PatientViewAllPrescription" />
+        <activity
+            android:name=".DoctorVoiceNoteForPatient"
+            android:exported="false"
+            android:parentActivityName=".DoctorGivenPrescription" />
+        <activity
+            android:name=".DoctorGivenPrescription"
+            android:exported="false"
+            android:parentActivityName=".DoctorHomePage" />
+        <activity
+            android:name=".PatientViewAllPrescription"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".DoctorPreviousAppointments"
+            android:exported="false"
+            android:parentActivityName=".DoctorHomePage" />
+        <activity
+            android:name=".DoctorPaymentsHistory"
+            android:exported="false"
+            android:parentActivityName=".DoctorHomePage" />
+        <activity
+            android:name=".DoctorGivingPrescription"
+            android:exported="false"
+            android:parentActivityName=".DoctorReceivePatientFiles" />
+        <activity
+            android:name=".DoctorProfile"
+            android:exported="false"
+            android:parentActivityName=".DoctorHomePage" />
+        <activity
+            android:name=".PatientSymptoms"
+            android:exported="false"
+            android:parentActivityName=".BookAppointment" />
+        <activity
+            android:name=".PatientPrescriptions"
+            android:exported="false"
+            android:parentActivityName=".SpecializedDoctorList" />
+        <activity
+            android:name=".PatientChangePassword"
+            android:exported="false"
+            android:parentActivityName=".PatientProfile" />
+        <activity
+            android:name=".videoCall.JitsiVideoCalling"
+            android:exported="false" />
+        <activity
+            android:name=".PatientWallet"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".UserSetNewPassword"
+            android:exported="false"
+            android:parentActivityName=".UserVerifyCodeInForgetPassword" />
+        <activity
+            android:name=".UserVerifyCodeInForgetPassword"
+            android:exported="false"
+            android:parentActivityName=".ForgetPassword" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false"
+            android:parentActivityName=".LoginRegister" />
+        <activity
+            android:name=".PatientEditProfile"
+            android:exported="false"
+            android:parentActivityName=".PatientProfile" />
+        <activity
+            android:name=".PatientAppointment"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".videoCall.DoctorVideoCall"
+            android:exported="false"
+            android:parentActivityName=".DoctorHomePage" />
+        <activity
+            android:name=".DoctorReceivePatientFiles"
+            android:exported="false"
+            android:parentActivityName=".DoctorOnlineAppointment" />
+        <activity
+            android:name=".videoCall.PatientVideoCall"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".PaymentOfAppointment"
+            android:exported="false"
+            android:parentActivityName=".BookAppointment" />
+        <activity
+            android:name=".introductory.IntroductoryActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DoctorHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".PatientAppointmentDetails"
+            android:exported="false"
+            android:parentActivityName=".PatientAppointment" />
+        <activity
+            android:name=".PatientAppointments"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".PatientProfile"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".LoginRegister"
+            android:exported="true" />
+        <activity
+            android:name=".BookAppointment"
+            android:exported="false"
+            android:parentActivityName=".PatientPrescriptions" />
+        <activity
+            android:name=".SpecializedDoctorList"
+            android:exported="false"
+            android:parentActivityName=".PatientFindDoctor" />
+        <activity
+            android:name=".PatientFindDoctor"
+            android:exported="false"
+            android:parentActivityName=".PatientHomePage" />
+        <activity
+            android:name=".PatientHomePage"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

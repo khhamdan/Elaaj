@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="170dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="22dp"
+    android:id="@+id/doctorSpecialityView"
+    android:backgroundTint="@color/white"
+    tools:context=".PatientFindDoctor"
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="72dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cardialogy_icon"
+                />
+            <TextView
+                android:id="@+id/specialityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardialogist"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp">
+            </TextView>
+
+<!--            <TextView-->
+<!--                android:id="@+id/numberOfDoctorsSpeciality"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="350 Specialist"-->
+<!--                android:textColor="#14BFFF"-->
+<!--                android:textSize="12sp"-->
+<!--                android:gravity="fill_vertical"-->
+<!--                android:layout_marginTop="1dp">-->
+<!--            </TextView>-->
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
