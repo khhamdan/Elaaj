@@ -238,9 +238,9 @@ public class DoctorCurrentOnlineAppFragment extends Fragment {
     }
     private void sendEmail2(String userEmailInput,String patientName) {
         try {
-            String stringSenderEmail = "f2018-443@bnu.edu.pk";
+            String stringSenderEmail = "YOUR_EMAIL";
             String stringReceiverEmail = userEmailInput;
-            String stringPasswordSenderEmail = "hamsab123";
+            String stringPasswordSenderEmail = "PASSWORD";
 
             String stringHost = "smtp.gmail.com";
 
