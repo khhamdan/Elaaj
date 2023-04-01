@@ -60,7 +60,6 @@ public class DoctorCurrentOnlineAppFragment extends Fragment {
     SharedPreferences sharedPreferences;
     private RecyclerView recyclerView;
     String patient_id,appointmentDate,appointmentTime,appointmentType,patientName;
-    String secretCodeBox="hamdan123";
     String userDoctorId,doctorsName,userEmail;
     SwipeRefreshLayout swipeRefreshLayout;
     DoctorCurrentOnlineAppointmentAdapter doctorCurrentOnlineAppointmentAdapter;

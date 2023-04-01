@@ -62,7 +62,6 @@ public class DoctorCurrentPhysicalAppFragment extends Fragment {
     SharedPreferences sharedPreferences;
     private RecyclerView recyclerView;
     String patient_id, appointmentDate, appointmentTime, appointmentType, patientName;
-    String secretCodeBox = "hamdan123";
     String userDoctorId,userEmail,doctorsName;
     SwipeRefreshLayout swipeRefreshLayout;
     DoctorCurrentPhysicalAppointmentAdapter doctorCurrentPhysicalAppointmentAdapter;
@@ -195,9 +194,9 @@ public class DoctorCurrentPhysicalAppFragment extends Fragment {
     }
     private void sendEmail(String userEmailInput,String patientName) {
         try {
-            String stringSenderEmail = "f2018-443@bnu.edu.pk";
+            String stringSenderEmail = "YOUR_EMAIL";
             String stringReceiverEmail = userEmailInput;
-            String stringPasswordSenderEmail = "hamsab123";
+            String stringPasswordSenderEmail = "PASSWORD";
 
             String stringHost = "smtp.gmail.com";
 
