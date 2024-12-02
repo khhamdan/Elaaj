@@ -2,16 +2,7 @@ It is a medical application where patient can do online consultation with Doctor
 This application is fetching data from database through API's where data is fetched by using VOLLEY which are made in Controller of Laravel Web Applcation.
 For Video Consultation OpenTok is used.
 
-![26 2 Doctor change password](https://user-images.githubusercontent.com/65400938/229243024-08cc84fe-7a86-47ae-b5a3-6e37cfd26f8b.png)
-![26 3 Doctor change password](https://user-images.githubusercontent.com/65400938/229243030-bed4a130-d252-47c2-a327-aa66f88b4059.png)
-![26 4 Doctor change password](https://user-images.githubusercontent.com/65400938/229243032-398f8957-67fd-4cf7-883a-f8d4fc8ecd3d.png)
-![27 1 Doctor view profile](https://user-images.githubusercontent.com/65400938/229243035-ccb9eb3f-70ab-492b-acd0-dfc69ecc6bc7.png)
-![27 Doctor view profile](https://user-images.githubusercontent.com/65400938/229243037-f6c704fe-ea95-47f4-b38f-462c325c247b.png)
-![28 1 Doctor Edit Profile](https://user-images.githubusercontent.com/65400938/229243039-6712f57a-fd6c-487a-930a-56ce0ea729ea.png)
-![28 2 Doctor Edit Profile](https://user-images.githubusercontent.com/65400938/229243040-9e54a4f9-d791-4568-84a9-149b9a4c7870.png)
-![28 Doctor Edit Profile](https://user-images.githubusercontent.com/65400938/229243043-356b7e40-8c46-4559-a11c-a13ca1d09589.png)
-![29 Doctor view today appointments](https://user-images.githubusercontent.com/65400938/229243046-703cb7e3-b6bc-4024-ac9e-313bd31b09f6.png)
-![30 0 Doctor view all appointments](https://user-images.githubusercontent.com/65400938/229243049-433fccfc-aaa5-4cec-8b91-662aae417f71.png)
+
 ![30 Doctor view all appointments](https://user-images.githubusercontent.com/65400938/229243050-3bac7fbf-1177-4abf-a56d-d3f7f41bee6d.png)
 ![31 Doctor cancels the appointment](https://user-images.githubusercontent.com/65400938/229243053-5f692de9-8ed0-45bc-83c5-3705991f81fd.png)
 ![31 1 Doctor cancels the appointment](https://user-images.githubusercontent.com/65400938/229243055-f11d7492-7430-465a-892a-04253dd83723.png)
