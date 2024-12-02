@@ -79,5 +79,4 @@ For Video Consultation OpenTok is used.
 ![19 Patient view transaction history](https://user-images.githubusercontent.com/65400938/229242989-6ca10074-f5a0-4108-b892-3b157a321889.png)
 ![20 Patient Consult with doctor](https://user-images.githubusercontent.com/65400938/229242992-31a4c51c-a97c-4f16-a2f0-2899a25a8301.png)
 ![21 Patient view prescription](https://user-images.githubusercontent.com/65400938/229242997-5e040774-d9c4-4ab8-b7ec-3781685196fc.png)
-![21 2 Patient view prescription](https://user-images.githubusercontent.com/65400938/229242998-65d815e0-f738-4881-8cf4-848e06f5e440.png)
-![21 Patient consult with doctor](https://user-images.githubusercontent.com/65400938/229243002-a25aba83-b81e-42aa-813f-52c6e7d81a64.png)
+
